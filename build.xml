@@ -46,12 +46,11 @@
     <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}" includeantruntime="false">
       <src path="src" />
     	<classpath>
-
 	      	<pathelement path="${classpathDir}"/>
 	      	<fileset dir="lib">
 	      	  <include name="**/*.jar"/>
 	      	</fileset>
-              <fileset dir=".">
+           <fileset dir=".">
 	      	  <include name="*.jar"/>
 	      	</fileset>
 	   </classpath>
